@@ -40,16 +40,16 @@
 /* Begin PBXFileReference section */
 		D618501B30B5CAA8F98DD478 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		D61850A21F8A2D61E5C206E1 /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		D618551CA0D6092990C40ED2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6185550B0F78BA03E46A99C /* SimpleKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKVO.h; sourceTree = "<group>"; };
 		D618578C6FD1D47EF507618C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		D61857A4AFD07274C4E317CA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6185900776124BE212568FE /* Invocable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invocable.swift; sourceTree = "<group>"; };
 		D618590861CC023B15188B75 /* SimpleKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandlerWrapper.swift; sourceTree = "<group>"; };
 		D618599D4F58D6F51E5C4617 /* SimpleKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61859CE41F6AA814E44A99B /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		D61859D595EE582B617746BE /* SimpleKVO.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SimpleKVO.podspec; sourceTree = "<group>"; };
 		D6185A4CF138F67DF00F2CFE /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		D6185A5AA61544854241C74D /* SimpleKVO.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SimpleKVO.podspec; sourceTree = "<group>"; };
 		D6185A8EDD60C791A7456DD0 /* SimpleKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6185AB3F2AB8A1470C3942B /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
 		D6185E38B0AF65EB9FCD4A2C /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
@@ -88,15 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D61851658D22DE54AECF1626 /* Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				D61857A4AFD07274C4E317CA /* LICENSE */,
-				D6185A5AA61544854241C74D /* SimpleKVO.podspec */,
-			);
-			path = Metadata;
-			sourceTree = "<group>";
-		};
 		D6185999F93C6A103F1510C5 /* Private */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +118,8 @@
 			children = (
 				D6185F753899CB260A684ED9 /* Products */,
 				D6185C9707086A71D8AEECAE /* Sources */,
-				D61851658D22DE54AECF1626 /* Metadata */,
+				D618551CA0D6092990C40ED2 /* LICENSE */,
+				D61859D595EE582B617746BE /* SimpleKVO.podspec */,
 			);
 			sourceTree = "<group>";
 		};
