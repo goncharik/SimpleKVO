@@ -1,3 +1,5 @@
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/789622/14542258/bc0330bc-0296-11e6-9631-67e65cf342c6.png" height="180"/>
+
 <p align="center">
 <a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/v/SimpleKVO.svg"></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
