@@ -7,34 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D618507B8F4B9AF226177A09 /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; };
-		D618508BB22FAC5FCFA53F63 /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; };
-		D6185184AD1CCF9248A9FE69 /* EventHandlerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */; };
-		D61851A387D6981C6F2F9A1F /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6185E38B0AF65EB9FCD4A2C /* Info-watchOS.plist */; };
+		D618507B8F4B9AF226177A09 /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D618508BB22FAC5FCFA53F63 /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D618523139877D4BA889B50D /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185AB3F2AB8A1470C3942B /* Disposable.swift */; };
 		D61852775401DF22786D0BBC /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185AB3F2AB8A1470C3942B /* Disposable.swift */; };
-		D61853938F9E155D4F1AC5C9 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = D618501B30B5CAA8F98DD478 /* Info-iOS.plist */; };
 		D618541256DC0FDE1A23C93A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61859CE41F6AA814E44A99B /* Observable.swift */; };
 		D618547BDE7C63B1DDF4660D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618578C6FD1D47EF507618C /* Event.swift */; };
-		D6185488C40E9A7894560DED /* EventHandlerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */; };
 		D618549D3BB5F8893514CF7D /* Invocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185900776124BE212568FE /* Invocable.swift */; };
 		D61854A8E11DF9D83B9D2B08 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185AB3F2AB8A1470C3942B /* Disposable.swift */; };
-		D61854B2498E88E31A3D7864 /* Info-OSX.plist in Resources */ = {isa = PBXBuildFile; fileRef = D61850A21F8A2D61E5C206E1 /* Info-OSX.plist */; };
 		D61854E4CC60B516F9CAC951 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61859CE41F6AA814E44A99B /* Observable.swift */; };
-		D618556E51BAD9EF72609AAE /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; };
-		D61855A376F45A8696AB8255 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6185A4CF138F67DF00F2CFE /* Info-tvOS.plist */; };
+		D618556E51BAD9EF72609AAE /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D618572DC8A63B024BBF5B7A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618578C6FD1D47EF507618C /* Event.swift */; };
 		D618575A8CD3E6560ACC43B3 /* Invocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185900776124BE212568FE /* Invocable.swift */; };
 		D618577D0D678648229CE4B8 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185AB3F2AB8A1470C3942B /* Disposable.swift */; };
 		D618587CF779F9485D0ACFCC /* Invocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185900776124BE212568FE /* Invocable.swift */; };
-		D61858A6E1CF6FCDE93C649E /* EventHandlerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */; };
 		D6185A293748C33C7C93CAD2 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61859CE41F6AA814E44A99B /* Observable.swift */; };
-		D6185ACAB1ADEFB5A7208435 /* EventHandlerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */; };
 		D6185C8FE18A3D1C8D68170C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61859CE41F6AA814E44A99B /* Observable.swift */; };
 		D6185EE59A0169FBEB80373B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618578C6FD1D47EF507618C /* Event.swift */; };
 		D6185F3386F817FA9712B9A5 /* Invocable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185900776124BE212568FE /* Invocable.swift */; };
 		D6185F8F3D4492CD94D5AD83 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618578C6FD1D47EF507618C /* Event.swift */; };
-		D6185F989593D0B350519D6C /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; };
+		D6185F989593D0B350519D6C /* SimpleKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D6185550B0F78BA03E46A99C /* SimpleKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +37,6 @@
 		D618578C6FD1D47EF507618C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		D6185900776124BE212568FE /* Invocable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invocable.swift; sourceTree = "<group>"; };
 		D618590861CC023B15188B75 /* SimpleKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandlerWrapper.swift; sourceTree = "<group>"; };
 		D618599D4F58D6F51E5C4617 /* SimpleKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61859CE41F6AA814E44A99B /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		D61859D595EE582B617746BE /* SimpleKVO.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SimpleKVO.podspec; sourceTree = "<group>"; };
@@ -88,15 +79,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D6185999F93C6A103F1510C5 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				D6185900776124BE212568FE /* Invocable.swift */,
-				D6185912B3EBBD0ACC0858A6 /* EventHandlerWrapper.swift */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
 		D6185C9707086A71D8AEECAE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +87,10 @@
 				D6185A4CF138F67DF00F2CFE /* Info-tvOS.plist */,
 				D618501B30B5CAA8F98DD478 /* Info-iOS.plist */,
 				D6185550B0F78BA03E46A99C /* SimpleKVO.h */,
-				D61859CE41F6AA814E44A99B /* Observable.swift */,
-				D6185AB3F2AB8A1470C3942B /* Disposable.swift */,
 				D618578C6FD1D47EF507618C /* Event.swift */,
-				D6185999F93C6A103F1510C5 /* Private */,
+				D6185AB3F2AB8A1470C3942B /* Disposable.swift */,
+				D6185900776124BE212568FE /* Invocable.swift */,
+				D61859CE41F6AA814E44A99B /* Observable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -251,6 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Tulusha.com;
 			};
 			buildConfigurationList = D6185090007C35955F5A62F8 /* Build configuration list for PBXProject "SimpleKVO" */;
@@ -278,7 +261,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61855A376F45A8696AB8255 /* Info-tvOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61853938F9E155D4F1AC5C9 /* Info-iOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61851A387D6981C6F2F9A1F /* Info-watchOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61854B2498E88E31A3D7864 /* Info-OSX.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +296,6 @@
 				D618577D0D678648229CE4B8 /* Disposable.swift in Sources */,
 				D618547BDE7C63B1DDF4660D /* Event.swift in Sources */,
 				D618587CF779F9485D0ACFCC /* Invocable.swift in Sources */,
-				D6185184AD1CCF9248A9FE69 /* EventHandlerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +307,6 @@
 				D61854A8E11DF9D83B9D2B08 /* Disposable.swift in Sources */,
 				D618572DC8A63B024BBF5B7A /* Event.swift in Sources */,
 				D6185F3386F817FA9712B9A5 /* Invocable.swift in Sources */,
-				D6185488C40E9A7894560DED /* EventHandlerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +318,6 @@
 				D61852775401DF22786D0BBC /* Disposable.swift in Sources */,
 				D6185F8F3D4492CD94D5AD83 /* Event.swift in Sources */,
 				D618549D3BB5F8893514CF7D /* Invocable.swift in Sources */,
-				D6185ACAB1ADEFB5A7208435 /* EventHandlerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +329,6 @@
 				D618523139877D4BA889B50D /* Disposable.swift in Sources */,
 				D6185EE59A0169FBEB80373B /* Event.swift in Sources */,
 				D618575A8CD3E6560ACC43B3 /* Invocable.swift in Sources */,
-				D61858A6E1CF6FCDE93C649E /* EventHandlerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -653,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 			};
 			name = Release;
