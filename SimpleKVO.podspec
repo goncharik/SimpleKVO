@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = "10.9.0"
 
   spec.requires_arc = true
-  spec.source = { git: "https://github.com/alokard/SimpleKVO.git", tag: "v#{spec.version}", submodules: true }
+  spec.source = { git: "https://github.com/alokard/SimpleKVO.git", tag: "#{spec.version}", submodules: true }
   spec.source_files = "Sources/**/*.{h,swift}"
 
 end
