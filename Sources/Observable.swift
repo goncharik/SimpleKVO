@@ -1,6 +1,6 @@
 public class Observable<T> {
 
-    let didChange = Event<(T, T)>()
+    public let didChange = Event<(T, T)>()
     private var value: T
 
     public init(_ initialValue: T) {
