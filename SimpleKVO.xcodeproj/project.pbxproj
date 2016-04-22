@@ -79,7 +79,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D6185C9707086A71D8AEECAE /* Sources */ = {
+		D6185C9707086A71D8AEECAE /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				D6185E38B0AF65EB9FCD4A2C /* Info-watchOS.plist */,
@@ -92,14 +92,14 @@
 				D6185900776124BE212568FE /* Invocable.swift */,
 				D61859CE41F6AA814E44A99B /* Observable.swift */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		D6185DD1E8B8A49F2F3DD511 = {
 			isa = PBXGroup;
 			children = (
 				D6185F753899CB260A684ED9 /* Products */,
-				D6185C9707086A71D8AEECAE /* Sources */,
+				D6185C9707086A71D8AEECAE /* Source */,
 				D618551CA0D6092990C40ED2 /* LICENSE */,
 				D61859D595EE582B617746BE /* SimpleKVO.podspec */,
 			);
