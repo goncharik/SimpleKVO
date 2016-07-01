@@ -29,7 +29,7 @@ And here is code example that handles observing:
 
 ```swift
 var bird = Bird()
-bird.name.didChange.addHandler(self, handler: #selector(birdNameChanged))
+bird.name.didChange.addHandler(self, handler: #selector(self.birdNameChanged(_:newValue:)))
 bird.name <- "Pinguin"
 ...
 
