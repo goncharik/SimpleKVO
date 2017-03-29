@@ -8,10 +8,6 @@
 
 [Key-Value-Observing](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/KVO.html) is so obvious and commonly used technique in Objective-C. Observe some value from the model, what could be easier? There is definitely should be something for this in Swift. But... Not really. And it's not available in pure swift out the box. **SimpleKVO** library is one of the possible solutions for KVO in Swift.
 
-## Getting Started
-
-- Check out my blog post about [Key-Value Observing in Swift](http://tulusha.com/kvo-in-swift)
-
 ## Usage
 
 Here is an example of how you might implement key-value observing in pure-Swift with **SimpleKVO** module.
